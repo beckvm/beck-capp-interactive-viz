@@ -28,7 +28,7 @@ I'll be using US Census data from 1980-2020.  While this time range of data was 
 IPUMS National Historical Geographic Information System has made time series tables and geographic data easily 
 accessible from all four decennial censuses (1980, 1990, 2000, 2010, 2020) and ACS 5-year surveys (2006-2010, 2011-2015, 2016-2020).
 I was able to download this data which is at the census tract level for every time period.  Currently I have data on racial demographics,
-income, and median housing values.
+income, and median housing values.  Washington DC's Chinatown is in census tract 58 and Philadelphia's is in tract 376 and 2.  I need to verify if/how these tracts have changed since 1980.
 https://www.nhgis.org/data-availability#time-series
 https://data2.nhgis.org/main
 
