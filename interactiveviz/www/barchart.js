@@ -54,25 +54,20 @@ function drawBarChart(svg, data) {
     var labels = ["Asian", "White", "Other"]
     var size = 10
 
-    var legend_color = d3.scaleOrdinal()
-        .domain(labels)
-        .range(["#B11818", "#FFD727", "#4A698A"]);
-
-    svg.selectAll("mydots")
+    svg.selectAll("legendboxes")
         .data(labels)
         .join("rect")
         .attr("x", 10)
-        .attr("y", function(d,i){ return 10 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
+        .attr("y", function(d,i){ return 10 + i*(size+5)})
         .attr("width", size)
         .attr("height", size)
         .style("fill", function(d){ return color(d)})
     
-    // Add one dot in the legend for each name.
-    svg.selectAll("mylabels")
+    svg.selectAll("legendlabels")
         .data(labels)
         .join("text")
         .attr("x", 10 + size*1.5)
-        .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
+        .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)}) 
         .style("fill", function(d){ return color(d)})
         .text(function(d){ return d})
         .attr("text-anchor", "left")

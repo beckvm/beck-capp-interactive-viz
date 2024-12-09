@@ -104,7 +104,7 @@
                         capitalOneArenaMarker.bindPopup("<b>Capital One Arena</b><br>Built in 1997").openPopup();
                     </script>
                 </div>
-                <div class="box">
+                <div class="box", id = "dcBarDiv">
                     <h2 class = "title">
                         DC Chinatown Population Change
                     </h2>
@@ -144,7 +144,7 @@
                         proposedArena.bindPopup("<b>Site of proposed 76ers arena</b><br>To be completed by 2031").openPopup();
                     </script>
                 </div>
-                <div class="box">
+                <div class="box", id="phlBarDiv">
                     <h2 class = "title">
                         Philadelphia Chinatown Population Change
                     </h2>
@@ -176,6 +176,13 @@
                 //     }
                 // }
                 // document.getElementById("dropdown").onchange = updateMap;
+                var slider = document.getElementById("yearSlider");
+                slider.oninput = function() {
+                    if (this.value == "2020") {
+                        document.getElementById("dcBarDiv").style.opacity = "1";
+                        document.getElementById("phlBarDiv").style.opacity = "1";
+                    }
+                };
             </script>
         </div>
     </div>
