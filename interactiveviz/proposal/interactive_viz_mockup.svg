@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="interactive_viz_mockup.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   inkscape:export-filename="interactive_viz_mockup.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.55"
+     inkscape:cx="1142.7273"
+     inkscape:cy="717.27273"
+     inkscape:window-width="1920"
+     inkscape:window-height="1074"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1920"
+       height="1080"
+       id="page4"
+       margin="0"
+       bleed="0" />
+    <inkscape:page
+       x="-2.8875232"
+       y="1083.6139"
+       width="1920"
+       height="1080"
+       id="page5"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:67.007px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:26.3839"
+       x="1513.3716"
+       y="94.766991"
+       id="text1"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="1513.3716"
+         y="94.766991"
+         style="fill:#000000;fill-opacity:1;stroke-width:26.3839">No Arena in Chinatown: Learning from a  Lost Community</tspan></text>
+    <rect
+       style="fill:#fdeea9;fill-opacity:1;stroke-width:4.92971"
+       id="rect1"
+       width="1126.3677"
+       height="707.52118"
+       x="54.424706"
+       y="231.30501" />
+    <rect
+       style="fill:#fdeea9;fill-opacity:1;stroke-width:4.91666"
+       id="rect1-2"
+       width="1120.4124"
+       height="707.52118"
+       x="52.915424"
+       y="1297.3892" />
+    <text
+       xml:space="preserve"
+       style="font-size:43.9682px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:17.3125"
+       x="84.776779"
+       y="295.20142"
+       id="text2"><tspan
+         sodipodi:role="line"
+         x="84.776779"
+         y="295.20142"
+         style="text-align:start;text-anchor:start;stroke-width:17.3125"
+         id="tspan5">Choropleth map of Washington, DC's  Chinatown neighborhood</tspan><tspan
+         sodipodi:role="line"
+         x="84.776779"
+         y="350.16168"
+         style="text-align:start;text-anchor:start;stroke-width:17.3125"
+         id="tspan10">that changes based on user input </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:41.2808px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:16.2543"
+       x="87.353317"
+       y="1379.5624"
+       id="text2-1"><tspan
+         sodipodi:role="line"
+         x="87.353317"
+         y="1379.5624"
+         style="text-align:start;text-anchor:start;stroke-width:16.2543"
+         id="tspan5-1">Choropleth map of Philadelphia's  Chinatown neighborhood</tspan><tspan
+         sodipodi:role="line"
+         x="87.353317"
+         y="1431.1633"
+         style="text-align:start;text-anchor:start;stroke-width:16.2543"
+         id="tspan18">that simulates change if 76er's arena is built</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:35.2502px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke-width:13.8797"
+       x="902.505"
+       y="198.84543"
+       id="text3"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="909.06158"
+         y="198.84543"
+         style="stroke-width:13.8797">Select metric (i.e. racial demographics, housing prices, income) </tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#c30000;stroke-width:5.52468;stroke-opacity:1"
+       id="rect3"
+       width="879.72839"
+       height="53.100033"
+       x="52.819344"
+       y="161.66876" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#c30000;stroke-width:3.89603;stroke-opacity:1"
+       d="m 49.975816,1016.0207 1182.229884,1.5332"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:42.4807px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:end;writing-mode:lr-tb;direction:ltr;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16.7267;stroke-opacity:1"
+       x="805.89587"
+       y="990.35553"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         x="805.89587"
+         y="990.35553"
+         style="stroke:none;stroke-width:16.7267">Timeline (slider to drag through different years)</tspan></text>
+    <rect
+       style="fill:#c81313;fill-opacity:1;stroke:none;stroke-width:3.87068;stroke-opacity:1"
+       id="rect5"
+       width="673.41058"
+       height="336.14987"
+       x="1216.113"
+       y="602.81555" />
+    <rect
+       style="fill:#c81313;fill-opacity:1;stroke:none;stroke-width:3.86211;stroke-opacity:1"
+       id="rect5-3"
+       width="670.43286"
+       height="336.14987"
+       x="1217.4963"
+       y="237.35735" />
+    <text
+       xml:space="preserve"
+       style="font-size:43.5282px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:17.1391;stroke-opacity:1"
+       x="1234.5718"
+       y="654.58105"
+       id="text6"><tspan
+         sodipodi:role="line"
+         x="1234.5718"
+         y="654.58105"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan8">Table with statistics and</tspan><tspan
+         sodipodi:role="line"
+         x="1234.5718"
+         y="708.99127"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan19">smaller charts that</tspan><tspan
+         sodipodi:role="line"
+         x="1234.5718"
+         y="763.40155"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan15">change alongside map</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.5282px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:17.1391;stroke-opacity:1"
+       x="1232.4783"
+       y="294.72864"
+       id="text6-9"><tspan
+         sodipodi:role="line"
+         x="1232.4783"
+         y="294.72864"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan15-9">Text with  extra information and </tspan><tspan
+         sodipodi:role="line"
+         x="1232.4783"
+         y="349.13889"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan22">context</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.5073px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.4372;stroke-opacity:1"
+       x="85.982597"
+       y="1056.3956"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="85.982597"
+         y="1056.3956"
+         style="stroke-width:10.4372">1980</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.5073px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.4372;stroke-opacity:1"
+       x="296.44037"
+       y="1056.3956"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         x="296.44037"
+         y="1056.3956"
+         style="stroke-width:10.4372">1990</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.5073px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.4372;stroke-opacity:1"
+       x="527.71265"
+       y="1056.5547"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         x="527.71265"
+         y="1056.5547"
+         style="stroke-width:10.4372">2000</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.5073px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.4372;stroke-opacity:1"
+       x="770.54852"
+       y="1056.5547"
+       id="text13"><tspan
+         sodipodi:role="line"
+         id="tspan13"
+         x="770.54852"
+         y="1056.5547"
+         style="stroke-width:10.4372">2010</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:26.5073px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:10.4372;stroke-opacity:1"
+       x="1020.3226"
+       y="1056.5547"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         x="1020.3226"
+         y="1056.5547"
+         style="stroke-width:10.4372">2020</tspan></text>
+    <circle
+       style="fill:#c30000;fill-opacity:1;stroke:none;stroke-width:4.2;stroke-opacity:1"
+       id="path14"
+       cx="115.85433"
+       cy="1016.129"
+       r="10.407252" />
+    <circle
+       style="fill:#c30000;fill-opacity:1;stroke:none;stroke-width:4.2;stroke-opacity:1"
+       id="path14-2"
+       cx="331.11591"
+       cy="1017.0945"
+       r="10.407252" />
+    <circle
+       style="fill:#c30000;fill-opacity:1;stroke:none;stroke-width:4.2;stroke-opacity:1"
+       id="path14-6"
+       cx="560.03625"
+       cy="1016.8436"
+       r="10.407252" />
+    <circle
+       style="fill:#c30000;fill-opacity:1;stroke:none;stroke-width:4.2;stroke-opacity:1"
+       id="path14-5"
+       cx="806.909"
+       cy="1018.0327"
+       r="10.407252" />
+    <circle
+       style="fill:#c30000;fill-opacity:1;stroke:none;stroke-width:4.2;stroke-opacity:1"
+       id="path14-7"
+       cx="1045.72"
+       cy="1016.0327"
+       r="10.407252" />
+    <text
+       xml:space="preserve"
+       style="font-size:61.6411px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:24.2711;stroke-opacity:1"
+       x="41.238316"
+       y="1155.0764"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         x="41.238316"
+         y="1155.0764"
+         style="stroke-width:24.2711">(user scrolls and content changes to Philadelphia)</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#c30000;stroke-width:4.2;stroke-opacity:1"
+       id="rect16"
+       width="181.97801"
+       height="53.660187"
+       x="58.326286"
+       y="1224.8521" />
+    <text
+       xml:space="preserve"
+       style="font-size:36.2301px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:14.2656;stroke-opacity:1"
+       x="67.019409"
+       y="1263.9485"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         x="67.019409"
+         y="1263.9485"
+         style="stroke-width:14.2656">Build Arena</tspan></text>
+    <rect
+       style="fill:#c81313;fill-opacity:1;stroke:none;stroke-width:3.87068;stroke-opacity:1"
+       id="rect22"
+       width="673.41058"
+       height="336.14987"
+       x="1207.1801"
+       y="1665.8423" />
+    <rect
+       style="fill:#c81313;fill-opacity:1;stroke:none;stroke-width:3.86211;stroke-opacity:1"
+       id="rect23"
+       width="670.43286"
+       height="336.14987"
+       x="1208.5634"
+       y="1300.3842" />
+    <text
+       xml:space="preserve"
+       style="font-size:43.5282px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:17.1391;stroke-opacity:1"
+       x="1232.9115"
+       y="1755.7897"
+       id="text25"><tspan
+         sodipodi:role="line"
+         x="1232.9115"
+         y="1755.7897"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan23">Table with statistics and</tspan><tspan
+         sodipodi:role="line"
+         x="1232.9115"
+         y="1810.2"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan24">smaller charts that</tspan><tspan
+         sodipodi:role="line"
+         x="1232.9115"
+         y="1864.6101"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan25">change alongside map</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:43.5282px;font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, Normal';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:17.1391;stroke-opacity:1"
+       x="1223.5453"
+       y="1357.7554"
+       id="text27"><tspan
+         sodipodi:role="line"
+         x="1223.5453"
+         y="1357.7554"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan26">Text with  extra information and </tspan><tspan
+         sodipodi:role="line"
+         x="1223.5453"
+         y="1412.1656"
+         style="text-align:start;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke-width:17.1391"
+         id="tspan27">context</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:4.2"
+       id="rect2"
+       width="30.90909"
+       height="140"
+       x="1652.7273"
+       y="783.81818" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:4.2"
+       id="rect4"
+       width="32.727272"
+       height="187.27272"
+       x="1705.4546"
+       y="736.54547" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:5.36912"
+       id="rect6"
+       width="32.727272"
+       height="250.9091"
+       x="1763.6364"
+       y="670.54541" />
+    <rect
+       style="fill:#8fdcf9;fill-opacity:1;stroke-width:3.48451"
+       id="rect7"
+       width="30.90909"
+       height="96.36364"
+       x="1652.7273"
+       y="827.45453" />
+    <rect
+       style="fill:#8fdcf9;fill-opacity:1;stroke-width:2.37732"
+       id="rect8"
+       width="32.727272"
+       height="59.999992"
+       x="1705.4546"
+       y="863.81818" />
+    <rect
+       style="fill:#8fdcf9;fill-opacity:1;stroke-width:1.58327"
+       id="rect9"
+       width="32.727272"
+       height="21.818193"
+       x="1763.6364"
+       y="899.63629" />
+  </g>
+</svg>
