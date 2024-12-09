@@ -1,6 +1,7 @@
   body {
     background-color: #FFFAE3;
     color: #F1C917;
+    border: 15px double #B11818;
   }
   p.block {
     color: #4D2C00;
@@ -44,7 +45,7 @@
     background: #4D2C00;
     border-radius: 5px;
     color: #FFFAE3;
-    opacity: 1;
+    opacity: 0.8;
   }
   .slider {
     width: 100%;
@@ -67,7 +68,7 @@
     background: #4D2C00;
     border-radius: 5px;
     color: #FFFAE3;
-    opacity: 1;
+    opacity: 0.8;
   }
   .legend i {
       width: 18px;
