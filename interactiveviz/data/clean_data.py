@@ -25,6 +25,9 @@ demographic_data = demographic_data.loc[:, ["GISJOIN2020", "YEAR", "TOTAL_POP",
 demographic_data["PROP_WHITE"] = demographic_data["RACE_WHITE"]/demographic_data["TOTAL_POP"]
 demographic_data["PROP_DEGREE"] = demographic_data["COLLEGE_DEGREE"]/demographic_data["TOTAL_POP"]
 
+demographic_data = demographic_data.round({"PROP_AAPI": 4, "PROP_WHITE": 4, 
+                                           "PROP_DEGREE": 4})
+
 CPI_1980 = 81.1
 CPI_1990 = 128.5
 CPI_2000 = 169.6
@@ -50,6 +53,7 @@ def adjust_inflation(original_value, year):
     return adjusted_value
 
 demographic_data["MED_INCOME_ADJ"] = demographic_data.apply(lambda x: adjust_inflation(x["MED_HH_INCOME"], x["YEAR"]), axis=1)
+demographic_data = demographic_data.round({"MED_INCOME_ADJ": 2})
 demographic_data = demographic_data.rename(columns = {"GISJOIN2020": "GISJOIN"})
 
 # Split data into separate years

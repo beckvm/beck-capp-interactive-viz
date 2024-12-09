@@ -60,6 +60,7 @@
             <label for="dropdown">Select a variable:</label>
             <select name="variable" id="dropdown">
               <option value="PROP_AAPI">AAPI Population Proportion</option>
+              <option value="PROP_WHITE">White Population Proportion</option>
               <option value="MED_INCOME_ADJ">Median Household Income</option>
               <option value="PROP_DEGREE">College Degree Proportion</option>
             </select>
@@ -136,27 +137,7 @@
                         add chart
                     </h2>
                     <div id="dcBar"></div>
-                        <script>
-                            // let div = d3
-                            //     .select("#dcBar")
-                            //     .append("svg")
-                            //     .attr("width", 200)
-                            //     .attr("height", 200)
-                            //     .attr("viewBox", "0 0 200 200");
-
-                            // const margin = 25
-                            // const height = 200 - margin
-                            // const width = 200 - margin
-                            // const barWidth = 25
-                            // const barPadding = 3
-
-                            // const visitorsScale = d3
-                            // .scaleLinear()
-                            // .domain([0,18000000])
-                            // .range([height * 0.5, 0])
-                            // .clamp(true);
-
-                        </script>
+                        <script></script>
                 </div>
             </div>
         </div>
@@ -182,7 +163,7 @@
                         color: "#FFFAE3",
                         dashArray: "3"
                     };
-                }; 
+                };
                 var geojsonDC;
                 var geojsonPhl;
                 function highlightFeatureDC(e) {
