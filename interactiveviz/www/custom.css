@@ -23,7 +23,7 @@
   h3.subtitle {
     color: #B11818;
     text-align: center;
-    font-size: 18px;
+    font-size: 25px;
   }
   a {
     color: #D47F39;
@@ -55,13 +55,13 @@
     outline: none;
     transition: opacity .2s;
     color: #B11818;
-    padding-bottom: 2px;
   }
   datalist {
     display: flex;
     justify-content: space-between;
     width: 100%;
     color: #B11818;
+    padding-bottom: 15px;
   }
   .legend {
     padding: 6px 8px;
@@ -81,6 +81,7 @@
     color: #B11818;
     font-size: 30px;
     padding-right: 10px;
+    opacity: 0;
   }
   select {
     margin-bottom: 10px;
@@ -90,7 +91,8 @@
     padding: 4px;
     border-radius: 9px;
     font-size: 20px;
-    color:#4D2C00
+    color:#4D2C00;
+    opacity: 0;
   }
   #dcBarDiv {
     opacity: 0
