@@ -1,5 +1,5 @@
 # No Arena in Chinatown: Learning from a Lost Community
-Tori Beck
+Tori Beck  
 Interactive data visualization for CAPP 30239
 
 # Description
@@ -11,6 +11,8 @@ of the former culture and neighborhood remain.  Opponents of the 76ers arena in 
 point to Washington DC's displacement of Chinatown residents and their community as warning.  
 
 # Preview
+[Link to website](https://noarenavisualization.netlify.app/)
+![Preview](https://github.com/user-attachments/assets/d4345783-6b4e-458f-b265-6e74c50e06e2)
 
 # Data Sources
 [IPUMS NHGIS, University of Minnesota 2024](www.nhgis.org)   
