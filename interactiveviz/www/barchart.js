@@ -1,10 +1,10 @@
-function drawBarChart(svg, data) {
+function drawBarChart(svg_container, data) {
     const margin = 25
     const height = 200 - margin
     const width = 300 - margin
 
     var svg = d3
-        .select(svg)
+        .select(svg_container)
         .append("svg")
             .attr("width", 600)
             .attr("height", 350)
@@ -22,13 +22,25 @@ function drawBarChart(svg, data) {
         .padding(0.2);
     svg.append("g")
         .attr("transform", "translate(0," + height + ")")
-        .call(d3.axisBottom(x).tickSizeOuter(0));
+        .call(d3.axisBottom(x).tickSizeOuter(0))
+        .style("color", "#FFFAE3");
     
     var y = d3.scaleLinear()
         .domain([0, 4000])
         .range([ height, 0 ]);
     svg.append("g")
-        .call(d3.axisLeft(y));
+        .call(d3.axisLeft(y))
+        .style("color", "#FFFAE3")
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("dx", "-8em")
+        .attr("y", 5)
+        .attr("dy", "-6em")
+        .attr("text-anchor", "end")
+        .attr("fill", "#FFFAE3")
+        .text("# People")
+        .style("fill", "#FFFAE3")
+        .style("font-size", "10px" );
 
     var color = d3.scaleOrdinal()
     .domain(subgroups)
@@ -50,6 +62,8 @@ function drawBarChart(svg, data) {
             .attr("y", function(d) { return y(d[1]); })
             .attr("height", function(d) { return y(d[0]) - y(d[1]); })
             .attr("width",x.bandwidth())
+            .on("mouseover", onHoverRect)
+            .on("mouseout", onMouseExit);
     
     var labels = ["Asian", "White", "Other"]
     var size = 10
@@ -73,5 +87,34 @@ function drawBarChart(svg, data) {
         .attr("text-anchor", "left")
         .style("alignment-baseline", "middle")
         .style("font-size", "13px")
+
+      
+
+
+    function onHoverRect(event, d) {
+        d3.select(this)
+            .transition()
+            .duration("50")
+            .attr("opacity", "0.5")
+        tooltip
+            .transition()
+            .duration("50")
+            .style("opacity", "1")
+            .text(`Year: ${d.year}, \n Population: ${d}`);
+        }
+
+    function onMouseExit(event, d) {
+        d3.select(this)
+            .transition()
+            .duration("50")
+            .attr("opacity", "1")
+
+        tooltip
+            .transition()
+            .duration("50")
+            .style("opacity", "0");
+    }
+
+
 }
 

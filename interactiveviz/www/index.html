@@ -16,10 +16,8 @@
         href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
     <style type="text/css">
-        /* add styles here */
     </style>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
-
   </head>
   <body>
   <section class="section">
@@ -51,11 +49,7 @@
             <h3 class="subtitle">
                 Use the slider to see changes in the demographics of Washington DC's and 
                 Philadelphia's Chinatowns since 1980.  
-                <!-- Click the "Build Arena" button to simulate what it would look
-                like if Philadelphia's Chinatown neighborhood changes at the same rate
-                as DC's following the construction of the Capital One Arena in 1997. -->
             </h3> 
-            <!-- <button type="button">Build Arena</button> -->
             <label for="dropdown">Select a variable:</label>
             <select name="variable" id="dropdown">
               <option value="PROP_AAPI">AAPI Population Proportion</option>
@@ -78,7 +72,6 @@
         <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
         <script src = "data.js"></script>
         <script src="aapi_prop_map.js"></script>
-        <script src="white_prop_map.js"></script>
         <script src="barchart.js"></script>
         <div class="columns">
             <div class="column">
@@ -165,29 +158,17 @@
         <div>
             <script>
                 generate_aapi_prop_map();
-                // function updateMap() {
-                //     switch (document.getElementById("dropdown").value) {
-                //         case "PROP_AAPI":
-                //             generate_aapi_prop_map();
-                //             break;
-                //         case "PROP_WHITE":
-                //             generate_white_prop_map();
-                //             break;
-                //     }
-                // }
-                // document.getElementById("dropdown").onchange = updateMap;
-                // var slider = document.getElementById("yearSlider");
-                // slider.oninput = function() {
-                //     if (this.value == "2020") {
-                //         document.getElementById("dcBarDiv").style.opacity = "1";
-                //         document.getElementById("phlBarDiv").style.opacity = "1";
-                //     }
-                // };
-            
             </script>
         </div>
     </div>
     <div class="container">
+        <h4 class="sources">Data Sources:</h4>
+            <p><a href = "www.nhgis.org">IPUMS NHGIS, University of Minnesota 2024</a></p>
+            <p><a href = "https://opendata.dc.gov/datasets/DCGIS::chinatown-design-review-boundary/explore?location=38.900205%2C-77.020938%2C16.31">
+                    Open Data DC 2024</a> licensed by <a href = "https://creativecommons.org/licenses/by/4.0/"> CC </a></p>
+            <p> <a href = "https://opendataphilly.org/datasets/philadelphia-neighborhoods/">Open Data Philly, Robert Cheetham 2024</a> 
+                licensed by <a href = "https://creativecommons.org/licenses/by/4.0/"> CC </a></p>
+      
     </div>
   </section>
   

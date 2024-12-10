@@ -94,10 +94,7 @@
     color:#4D2C00;
     opacity: 0;
   }
-  #dcBarDiv {
-    opacity: 1
-  }
-  #phlBarDiv{
-    opacity: 1
+  h4.sources {
+    color: #B11818;
   }
 
